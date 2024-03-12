@@ -1,0 +1,37 @@
+/* Home.css */
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #84b8d6 50%, #e9ecef 50%); /* Textured background gradient */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Additional styling for better readability */
+  .home-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    color: #aeddf3;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .home-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .home-container li {
+    color: #2ad0e6;
+  }
+  
+  .home-container p:last-child {
+    margin-bottom: 0;
+  }
+  

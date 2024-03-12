@@ -1,0 +1,39 @@
+/* styles.css */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-table {
+  width: 100%;
+}
+
+.form-table label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-table input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.form-table button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-table button:hover {
+  background-color: #45a049;
+}
